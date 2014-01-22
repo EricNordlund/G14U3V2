@@ -1,22 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package main;
 
 /**
- *
+ * Handles the connection between the three main classes.
  * @author JD-W
  */
 public class Controller {
     
     Model model;
     
-    Controller()
+    Controller(Model model)
     {
-        this.model = new Model();
+        this.model = model;
     }
     
     public void openFile(String fileName) {

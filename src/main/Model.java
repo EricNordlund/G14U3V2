@@ -10,11 +10,15 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ * Contains the main functions.
  * @author G14
  */
 public class Model {
     
+    /**
+     * Opens the a file located in the reports folder.
+     * @param filename Name of the file to open.
+     */
     public void openFile(String filename) {
         File file = getPath(filename);
         
@@ -25,6 +29,11 @@ public class Model {
         }
     }
     
+    /**
+     * Retrieves the absolute path of the reportsfolder and files located within it.
+     * @param filename Filename to the path.
+     * @return 
+     */
     public File getPath(String filename) {
         try {
             String path = "main/reports/" + filename;

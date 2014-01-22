@@ -3,19 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package main;
 
 /**
+ * Handles the connects the viewer, controller and model.
  *
  * @author JD-W
  */
 public class Main {
-   
+
     public static void main(String[] args) {
-    Controller controller = new Controller();
-    
-    
-            
-            }
+
+        Model model = new Model();
+        Controller controller = new Controller(model);
+        View view = new View();
+
+        view.setController(controller);
+        view.setVisible(true);
+
+    }
 }
