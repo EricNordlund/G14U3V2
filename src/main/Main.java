@@ -8,7 +8,7 @@ package main;
 /**
  * Handles the connects the viewer, controller and model.
  *
- * @author JD-W
+ * @author EN
  */
 public class Main {
 

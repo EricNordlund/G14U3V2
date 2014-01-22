@@ -1,0 +1,7 @@
+XLODBC
+1
+DRIVER=SQL Server Native Client 11.0;SERVER=192.168.0.198;UID=sa;APP=Microsoft Office 2010;WSID=NIBBLER;DATABASE=Navision;
+SELECT "CRONUS Sverige AB$Employee"."First Name", "CRONUS Sverige AB$Employee"."Last Name", "CRONUS Sverige AB$Employee"."Job Title"  FROM Navision.dbo."CRONUS Sverige AB$Employee" "CRONUS Sverige AB$Employee"  ORDER BY "CRONUS Sverige AB$Employee"."First Name"
+
+
+First Name	Last Name	Job Title

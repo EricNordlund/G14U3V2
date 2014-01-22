@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 
 /**
  * Contains the main functions.
- * @author G14
+ * @author EN
  */
 public class Model {
     

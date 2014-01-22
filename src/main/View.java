@@ -8,7 +8,7 @@ import javax.swing.plaf.ColorUIResource;
 
 /**
  * GUI
- * @author JD-W
+ * @author EN
  */
 public class View extends javax.swing.JFrame {
 

@@ -3,7 +3,7 @@ package main;
 
 /**
  * Handles the connection between the three main classes.
- * @author JD-W
+ * @author EN
  */
 public class Controller {
     
